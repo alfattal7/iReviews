@@ -1,0 +1,41 @@
+/* Reviews.css */
+
+.genre-row {
+    margin-bottom: 10px;
+  }
+  
+  .genre-label {
+    font-weight: bold;
+  }
+  
+  .genre-select {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .download-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #e09627; /* Blue color for the link */
+    font-weight: bold;
+}
+
+.download-link:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}
+.btn-col {
+  margin-right: 10px;
+  display: flex;
+  max-width: 10px; /* Adjust the right margin as needed */
+}
+
+.file-input {
+  display: flex;
+  align-items: center;
+}
+.btn.scan{
+  color: #000;
+}
